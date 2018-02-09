@@ -18,7 +18,6 @@ import java.util.Date;
 public class Todo {
     @Id
     private String id;
-
     @NotBlank
     @Size(max=100)
     @Indexed(unique=true)
